@@ -33,6 +33,7 @@ swap(nums[left], nums[right]);
 2.慢指针不为0，两个指针都右移
 
 代码：
+```
 //建立指针
 int pslow=0;
 int pfast=0;
@@ -46,9 +47,18 @@ while(pfast<nums.size())//循环结束条件
     }
     pfast++;
 }
+```
 
 ## 字符串篇
 
 
 ## 链表
 
+```结构
+struct ListNode {
+    int val;            // 节点的数据元素
+    ListNode* next;     // 指向下一个节点的指针
+
+    ListNode(int x) : val(x), next(nullptr) {}   // 构造函数
+};
+```
