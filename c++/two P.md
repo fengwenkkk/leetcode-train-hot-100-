@@ -54,11 +54,17 @@ while(pfast<nums.size())//循环结束条件
 
 ## 链表
 
-```结构
+```
+//结构
 struct ListNode {
     int val;            // 节点的数据元素
     ListNode* next;     // 指向下一个节点的指针
 
     ListNode(int x) : val(x), next(nullptr) {}   // 构造函数
 };
+
+///增加一位
+temp = temp->next;
+//终止
+temp == nullptr
 ```
