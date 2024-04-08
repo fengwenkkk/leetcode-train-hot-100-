@@ -1,3 +1,5 @@
+
+
 # 链表和二叉树
 # 目录
 
@@ -135,5 +137,5 @@ public:
 
 //二分时使用 int mid = left + ((right - left) / 2);来防止越界
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTE1OTMxM119
+eyJoaXN0b3J5IjpbMjA2ODQ4OTMyNV19
 -->
